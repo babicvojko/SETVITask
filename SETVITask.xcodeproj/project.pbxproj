@@ -14,6 +14,28 @@
 		0BF7248C2BA0547100971DDE /* SETVITaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF7248B2BA0547100971DDE /* SETVITaskTests.swift */; };
 		0BF724962BA0547100971DDE /* SETVITaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724952BA0547100971DDE /* SETVITaskUITests.swift */; };
 		0BF724982BA0547100971DDE /* SETVITaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724972BA0547100971DDE /* SETVITaskUITestsLaunchTests.swift */; };
+		0BF724AB2BA05D9900971DDE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0BF724AA2BA05D9900971DDE /* Alamofire */; };
+		0BF724AD2BA05E4400971DDE /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724AC2BA05E4400971DDE /* NetworkController.swift */; };
+		0BF724AF2BA05E6500971DDE /* NetworkRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724AE2BA05E6500971DDE /* NetworkRoutable.swift */; };
+		0BF724B22BA05F9600971DDE /* ServerDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724B12BA05F9600971DDE /* ServerDefinition.swift */; };
+		0BF724B42BA05FBA00971DDE /* GitHubCoreServerDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724B32BA05FBA00971DDE /* GitHubCoreServerDefinition.swift */; };
+		0BF724B62BA09AAB00971DDE /* LocalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724B52BA09AAB00971DDE /* LocalError.swift */; };
+		0BF724B82BA09B4E00971DDE /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724B72BA09B4E00971DDE /* DataController.swift */; };
+		0BF724BC2BA09C6400971DDE /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724BB2BA09C6400971DDE /* UserRepository.swift */; };
+		0BF724BE2BA09C7300971DDE /* UserRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724BD2BA09C7300971DDE /* UserRemoteRepository.swift */; };
+		0BF724C02BA09EC000971DDE /* SourceCodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724BF2BA09EC000971DDE /* SourceCodeRepository.swift */; };
+		0BF724C22BA09EE000971DDE /* SourceCodeRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724C12BA09EE000971DDE /* SourceCodeRemoteRepository.swift */; };
+		0BF724C42BA09F3800971DDE /* UserRemoteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724C32BA09F3800971DDE /* UserRemoteRouter.swift */; };
+		0BF724C62BA09F4C00971DDE /* SourceCodeRemoteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724C52BA09F4C00971DDE /* SourceCodeRemoteRouter.swift */; };
+		0BF724C82BA0A21500971DDE /* NetworkUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724C72BA0A21500971DDE /* NetworkUser.swift */; };
+		0BF724CA2BA0A23000971DDE /* NetworkCodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724C92BA0A23000971DDE /* NetworkCodeRepository.swift */; };
+		0BF724CC2BA0A23F00971DDE /* NetworkCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724CB2BA0A23F00971DDE /* NetworkCommit.swift */; };
+		0BF724CE2BA0A6E600971DDE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724CD2BA0A6E600971DDE /* User.swift */; };
+		0BF724D22BA0A8F600971DDE /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724D12BA0A8F600971DDE /* UserMapper.swift */; };
+		0BF724D62BA0AAF700971DDE /* CodeRepositoryMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724D52BA0AAF700971DDE /* CodeRepositoryMapper.swift */; };
+		0BF724D82BA0AB3300971DDE /* CodeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724D72BA0AB3300971DDE /* CodeRepository.swift */; };
+		0BF724DA2BA0B11100971DDE /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724D92BA0B11100971DDE /* Commit.swift */; };
+		0BF724DC2BA0B58F00971DDE /* CommitMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724DB2BA0B58F00971DDE /* CommitMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +67,27 @@
 		0BF724912BA0547100971DDE /* SETVITaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SETVITaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF724952BA0547100971DDE /* SETVITaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETVITaskUITests.swift; sourceTree = "<group>"; };
 		0BF724972BA0547100971DDE /* SETVITaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETVITaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BF724AC2BA05E4400971DDE /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		0BF724AE2BA05E6500971DDE /* NetworkRoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRoutable.swift; sourceTree = "<group>"; };
+		0BF724B12BA05F9600971DDE /* ServerDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerDefinition.swift; sourceTree = "<group>"; };
+		0BF724B32BA05FBA00971DDE /* GitHubCoreServerDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubCoreServerDefinition.swift; sourceTree = "<group>"; };
+		0BF724B52BA09AAB00971DDE /* LocalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalError.swift; sourceTree = "<group>"; };
+		0BF724B72BA09B4E00971DDE /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		0BF724BB2BA09C6400971DDE /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		0BF724BD2BA09C7300971DDE /* UserRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRemoteRepository.swift; sourceTree = "<group>"; };
+		0BF724BF2BA09EC000971DDE /* SourceCodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeRepository.swift; sourceTree = "<group>"; };
+		0BF724C12BA09EE000971DDE /* SourceCodeRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeRemoteRepository.swift; sourceTree = "<group>"; };
+		0BF724C32BA09F3800971DDE /* UserRemoteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRemoteRouter.swift; sourceTree = "<group>"; };
+		0BF724C52BA09F4C00971DDE /* SourceCodeRemoteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCodeRemoteRouter.swift; sourceTree = "<group>"; };
+		0BF724C72BA0A21500971DDE /* NetworkUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUser.swift; sourceTree = "<group>"; };
+		0BF724C92BA0A23000971DDE /* NetworkCodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCodeRepository.swift; sourceTree = "<group>"; };
+		0BF724CB2BA0A23F00971DDE /* NetworkCommit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCommit.swift; sourceTree = "<group>"; };
+		0BF724CD2BA0A6E600971DDE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0BF724D12BA0A8F600971DDE /* UserMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		0BF724D52BA0AAF700971DDE /* CodeRepositoryMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRepositoryMapper.swift; sourceTree = "<group>"; };
+		0BF724D72BA0AB3300971DDE /* CodeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRepository.swift; sourceTree = "<group>"; };
+		0BF724D92BA0B11100971DDE /* Commit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commit.swift; sourceTree = "<group>"; };
+		0BF724DB2BA0B58F00971DDE /* CommitMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF724AB2BA05D9900971DDE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +139,9 @@
 		0BF724782BA0546F00971DDE /* SETVITask */ = {
 			isa = PBXGroup;
 			children = (
+				0BF724A42BA05AAD00971DDE /* Networking */,
+				0BF724A52BA05ABC00971DDE /* Bussiness Model */,
+				0BF724A62BA05AFC00971DDE /* View */,
 				0BF724792BA0547000971DDE /* SETVITaskApp.swift */,
 				0BF7247B2BA0547000971DDE /* ContentView.swift */,
 				0BF7247D2BA0547100971DDE /* Assets.xcassets */,
@@ -129,6 +176,112 @@
 			path = SETVITaskUITests;
 			sourceTree = "<group>";
 		};
+		0BF724A42BA05AAD00971DDE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724A72BA05B3600971DDE /* Common */,
+				0BF724B02BA05F1700971DDE /* Server Definition */,
+				0BF724B92BA09B8100971DDE /* User Repository */,
+				0BF724BA2BA09B9000971DDE /* Source Code Repository */,
+				0BF724B72BA09B4E00971DDE /* DataController.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0BF724A52BA05ABC00971DDE /* Bussiness Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724B52BA09AAB00971DDE /* LocalError.swift */,
+				0BF724CD2BA0A6E600971DDE /* User.swift */,
+				0BF724D72BA0AB3300971DDE /* CodeRepository.swift */,
+				0BF724D92BA0B11100971DDE /* Commit.swift */,
+			);
+			path = "Bussiness Model";
+			sourceTree = "<group>";
+		};
+		0BF724A62BA05AFC00971DDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BF724A72BA05B3600971DDE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724AC2BA05E4400971DDE /* NetworkController.swift */,
+				0BF724AE2BA05E6500971DDE /* NetworkRoutable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0BF724B02BA05F1700971DDE /* Server Definition */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724B12BA05F9600971DDE /* ServerDefinition.swift */,
+				0BF724B32BA05FBA00971DDE /* GitHubCoreServerDefinition.swift */,
+			);
+			path = "Server Definition";
+			sourceTree = "<group>";
+		};
+		0BF724B92BA09B8100971DDE /* User Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724CF2BA0A8D600971DDE /* Response */,
+				0BF724D02BA0A8DE00971DDE /* Mapper */,
+				0BF724BB2BA09C6400971DDE /* UserRepository.swift */,
+				0BF724BD2BA09C7300971DDE /* UserRemoteRepository.swift */,
+				0BF724C32BA09F3800971DDE /* UserRemoteRouter.swift */,
+			);
+			path = "User Repository";
+			sourceTree = "<group>";
+		};
+		0BF724BA2BA09B9000971DDE /* Source Code Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724D32BA0AABE00971DDE /* Response */,
+				0BF724D42BA0AAC600971DDE /* Mapper */,
+				0BF724BF2BA09EC000971DDE /* SourceCodeRepository.swift */,
+				0BF724C12BA09EE000971DDE /* SourceCodeRemoteRepository.swift */,
+				0BF724C52BA09F4C00971DDE /* SourceCodeRemoteRouter.swift */,
+			);
+			path = "Source Code Repository";
+			sourceTree = "<group>";
+		};
+		0BF724CF2BA0A8D600971DDE /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724C72BA0A21500971DDE /* NetworkUser.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0BF724D02BA0A8DE00971DDE /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724D12BA0A8F600971DDE /* UserMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		0BF724D32BA0AABE00971DDE /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724C92BA0A23000971DDE /* NetworkCodeRepository.swift */,
+				0BF724CB2BA0A23F00971DDE /* NetworkCommit.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0BF724D42BA0AAC600971DDE /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724D52BA0AAF700971DDE /* CodeRepositoryMapper.swift */,
+				0BF724DB2BA0B58F00971DDE /* CommitMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +298,9 @@
 			dependencies = (
 			);
 			name = SETVITask;
+			packageProductDependencies = (
+				0BF724AA2BA05D9900971DDE /* Alamofire */,
+			);
 			productName = SETVITask;
 			productReference = 0BF724762BA0546F00971DDE /* SETVITask.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +373,9 @@
 				Base,
 			);
 			mainGroup = 0BF7246D2BA0546F00971DDE;
+			packageReferences = (
+				0BF724A92BA05D9900971DDE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0BF724772BA0546F00971DDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +418,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF724C82BA0A21500971DDE /* NetworkUser.swift in Sources */,
+				0BF724C62BA09F4C00971DDE /* SourceCodeRemoteRouter.swift in Sources */,
+				0BF724DC2BA0B58F00971DDE /* CommitMapper.swift in Sources */,
+				0BF724DA2BA0B11100971DDE /* Commit.swift in Sources */,
+				0BF724B62BA09AAB00971DDE /* LocalError.swift in Sources */,
+				0BF724B42BA05FBA00971DDE /* GitHubCoreServerDefinition.swift in Sources */,
+				0BF724BC2BA09C6400971DDE /* UserRepository.swift in Sources */,
+				0BF724B22BA05F9600971DDE /* ServerDefinition.swift in Sources */,
+				0BF724D22BA0A8F600971DDE /* UserMapper.swift in Sources */,
+				0BF724C02BA09EC000971DDE /* SourceCodeRepository.swift in Sources */,
+				0BF724BE2BA09C7300971DDE /* UserRemoteRepository.swift in Sources */,
+				0BF724D82BA0AB3300971DDE /* CodeRepository.swift in Sources */,
+				0BF724C22BA09EE000971DDE /* SourceCodeRemoteRepository.swift in Sources */,
+				0BF724AF2BA05E6500971DDE /* NetworkRoutable.swift in Sources */,
 				0BF7247C2BA0547000971DDE /* ContentView.swift in Sources */,
+				0BF724CA2BA0A23000971DDE /* NetworkCodeRepository.swift in Sources */,
+				0BF724D62BA0AAF700971DDE /* CodeRepositoryMapper.swift in Sources */,
+				0BF724B82BA09B4E00971DDE /* DataController.swift in Sources */,
 				0BF7247A2BA0547000971DDE /* SETVITaskApp.swift in Sources */,
+				0BF724CE2BA0A6E600971DDE /* User.swift in Sources */,
+				0BF724C42BA09F3800971DDE /* UserRemoteRouter.swift in Sources */,
+				0BF724CC2BA0A23F00971DDE /* NetworkCommit.swift in Sources */,
+				0BF724AD2BA05E4400971DDE /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,6 +789,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BF724A92BA05D9900971DDE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BF724AA2BA05D9900971DDE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BF724A92BA05D9900971DDE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BF7246E2BA0546F00971DDE /* Project object */;
 }
