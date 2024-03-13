@@ -11,7 +11,7 @@ struct CodeRepository {
     let id: Int64
     let name: String
     let isPrivate: Bool
-    let description: String
+    let description: String?
 }
 
 extension CodeRepository: Hashable {}

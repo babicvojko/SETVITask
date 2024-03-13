@@ -11,7 +11,7 @@ struct NetworkCodeRepository: Decodable {
     let id: Int64
     let name: String
     let isPrivate: Bool
-    let description: String
+    let description: String?
     
     enum CodingKeys: String, CodingKey {
         case id
