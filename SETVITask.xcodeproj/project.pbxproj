@@ -43,6 +43,7 @@
 		0BF724EB2BA0BA1400971DDE /* CommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724EA2BA0BA1400971DDE /* CommitsViewModel.swift */; };
 		0BF724EE2BA1A51A00971DDE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0BF724ED2BA1A51A00971DDE /* Kingfisher */; };
 		0BF724F22BA1AB8C00971DDE /* Image+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724F12BA1AB8C00971DDE /* Image+.swift */; };
+		0BF724F92BA1F2DE00971DDE /* CodeRepository+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724F82BA1F2DE00971DDE /* CodeRepository+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		0BF724E82BA0B9FF00971DDE /* CodeRepositoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRepositoriesViewModel.swift; sourceTree = "<group>"; };
 		0BF724EA2BA0BA1400971DDE /* CommitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsViewModel.swift; sourceTree = "<group>"; };
 		0BF724F12BA1AB8C00971DDE /* Image+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+.swift"; sourceTree = "<group>"; };
+		0BF724F82BA1F2DE00971DDE /* CodeRepository+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodeRepository+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				0BF724F12BA1AB8C00971DDE /* Image+.swift */,
+				0BF724F82BA1F2DE00971DDE /* CodeRepository+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				0BF724BC2BA09C6400971DDE /* UserRepository.swift in Sources */,
 				0BF724B22BA05F9600971DDE /* ServerDefinition.swift in Sources */,
 				0BF724D22BA0A8F600971DDE /* UserMapper.swift in Sources */,
+				0BF724F92BA1F2DE00971DDE /* CodeRepository+.swift in Sources */,
 				0BF724C02BA09EC000971DDE /* SourceCodeRepository.swift in Sources */,
 				0BF724BE2BA09C7300971DDE /* UserRemoteRepository.swift in Sources */,
 				0BF724D82BA0AB3300971DDE /* CodeRepository.swift in Sources */,

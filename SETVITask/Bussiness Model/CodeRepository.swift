@@ -13,3 +13,5 @@ struct CodeRepository {
     let isPrivate: Bool
     let description: String
 }
+
+extension CodeRepository: Hashable {}

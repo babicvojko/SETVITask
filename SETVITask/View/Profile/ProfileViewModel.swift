@@ -9,6 +9,7 @@ import Foundation
 
 @MainActor final class ProfileViewModel: ObservableObject {
     private let userRepository: UserRepository
+    private var user: User?
     
     @Published var username: String = ""
     @Published var name: String? = nil
@@ -38,8 +39,14 @@ import Foundation
         }
     }
     
+    func codeViewModel() -> CodeRepositoriesViewModel? {
+        guard let user else { return nil }
+        return .init(user: user)
+    }
+    
     // MARK: Private methods
     private func update(with user: User) {
+        self.user = user
         self.username = user.login
         self.name = user.name
         self.avatarURL = user.avatarURL

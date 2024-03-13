@@ -12,3 +12,5 @@ struct Commit {
     let author: String?
     let description: String
 }
+
+extension Commit: Hashable {}

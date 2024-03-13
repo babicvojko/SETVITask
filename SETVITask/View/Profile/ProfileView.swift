@@ -93,11 +93,13 @@ struct ProfileView: View {
     
     func additionalLinksView() -> some View {
         Section {
-            Text("My Repositories")
+            NavigationLink("My Repositories") {
+                if let codeViewModel = viewModel.codeViewModel() {
+                    CodeRepositoriesView(viewModel: codeViewModel)
+                } else  {
+                    EmptyView()
+                }
+            }
         }
     }
 }
-
-//#Preview {
-//    ProfileView()
-//}

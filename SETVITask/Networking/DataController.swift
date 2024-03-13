@@ -13,5 +13,5 @@ class DataController {
     private init() {}
     
     lazy var user: UserRepository = UserRemoteRepository()
-    lazy var sourceCode: SourceCodeRepository = SourceCodeRemoteRepository()
+    lazy var code: SourceCodeRepository = SourceCodeRemoteRepository()
 }

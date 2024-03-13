@@ -14,3 +14,5 @@ struct User {
     let name: String?
     let company: String?
 }
+
+extension User: Hashable {}
