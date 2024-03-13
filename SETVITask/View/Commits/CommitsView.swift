@@ -39,8 +39,12 @@ struct CommitsView: View {
         ScrollView(showsIndicators: false) {
             LazyVStack {
                 ForEach(viewModel.commits) { commit in
-                    CommitRowView(commit: commit)
-                    .padding()
+                    VStack {
+                        CommitRowView(commit: commit)
+                            .padding([.leading, .trailing])
+                            .padding([.top, .bottom], 5)
+                        Divider()
+                    }
                 }
             }
         }
