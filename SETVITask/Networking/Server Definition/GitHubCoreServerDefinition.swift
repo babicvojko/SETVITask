@@ -14,6 +14,6 @@ struct GitHubCoreServerDefinition: ServerDefinition {
     }
     
     var headers: HTTPHeaders {
-        return [.authorization(bearerToken: "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")]
+        return [.authorization(bearerToken: "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")]
     }
 }
