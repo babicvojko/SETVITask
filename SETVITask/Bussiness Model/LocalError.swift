@@ -11,4 +11,5 @@ enum LocalError: Error {
     case internalServer(String)
     case api(String)
     case decoding(String?)
+    case unknown
 }

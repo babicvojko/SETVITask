@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0BF7247A2BA0547000971DDE /* SETVITaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724792BA0547000971DDE /* SETVITaskApp.swift */; };
-		0BF7247C2BA0547000971DDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF7247B2BA0547000971DDE /* ContentView.swift */; };
 		0BF7247E2BA0547100971DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF7247D2BA0547100971DDE /* Assets.xcassets */; };
 		0BF724822BA0547100971DDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF724812BA0547100971DDE /* Preview Assets.xcassets */; };
 		0BF7248C2BA0547100971DDE /* SETVITaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF7248B2BA0547100971DDE /* SETVITaskTests.swift */; };
@@ -42,6 +41,8 @@
 		0BF724E72BA0B9E300971DDE /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724E62BA0B9E300971DDE /* ProfileViewModel.swift */; };
 		0BF724E92BA0B9FF00971DDE /* CodeRepositoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724E82BA0B9FF00971DDE /* CodeRepositoriesViewModel.swift */; };
 		0BF724EB2BA0BA1400971DDE /* CommitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724EA2BA0BA1400971DDE /* CommitsViewModel.swift */; };
+		0BF724EE2BA1A51A00971DDE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0BF724ED2BA1A51A00971DDE /* Kingfisher */; };
+		0BF724F22BA1AB8C00971DDE /* Image+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724F12BA1AB8C00971DDE /* Image+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +65,6 @@
 /* Begin PBXFileReference section */
 		0BF724762BA0546F00971DDE /* SETVITask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SETVITask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF724792BA0547000971DDE /* SETVITaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETVITaskApp.swift; sourceTree = "<group>"; };
-		0BF7247B2BA0547000971DDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BF7247D2BA0547100971DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF7247F2BA0547100971DDE /* SETVITask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SETVITask.entitlements; sourceTree = "<group>"; };
 		0BF724812BA0547100971DDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -100,6 +100,7 @@
 		0BF724E62BA0B9E300971DDE /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		0BF724E82BA0B9FF00971DDE /* CodeRepositoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRepositoriesViewModel.swift; sourceTree = "<group>"; };
 		0BF724EA2BA0BA1400971DDE /* CommitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitsViewModel.swift; sourceTree = "<group>"; };
+		0BF724F12BA1AB8C00971DDE /* Image+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF724EE2BA1A51A00971DDE /* Kingfisher in Frameworks */,
 				0BF724AB2BA05D9900971DDE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +157,6 @@
 				0BF724A52BA05ABC00971DDE /* Bussiness Model */,
 				0BF724A62BA05AFC00971DDE /* View */,
 				0BF724792BA0547000971DDE /* SETVITaskApp.swift */,
-				0BF7247B2BA0547000971DDE /* ContentView.swift */,
 				0BF7247D2BA0547100971DDE /* Assets.xcassets */,
 				0BF7247F2BA0547100971DDE /* SETVITask.entitlements */,
 				0BF724802BA0547100971DDE /* Preview Content */,
@@ -214,6 +215,7 @@
 		0BF724A62BA05AFC00971DDE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0BF724EF2BA1AB6600971DDE /* Common */,
 				0BF724DD2BA0B96400971DDE /* Profile */,
 				0BF724DE2BA0B96C00971DDE /* Code Repositories */,
 				0BF724DF2BA0B97E00971DDE /* Commits */,
@@ -324,6 +326,22 @@
 			path = Commits;
 			sourceTree = "<group>";
 		};
+		0BF724EF2BA1AB6600971DDE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724F02BA1AB6D00971DDE /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0BF724F02BA1AB6D00971DDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0BF724F12BA1AB8C00971DDE /* Image+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -342,6 +360,7 @@
 			name = SETVITask;
 			packageProductDependencies = (
 				0BF724AA2BA05D9900971DDE /* Alamofire */,
+				0BF724ED2BA1A51A00971DDE /* Kingfisher */,
 			);
 			productName = SETVITask;
 			productReference = 0BF724762BA0546F00971DDE /* SETVITask.app */;
@@ -417,6 +436,7 @@
 			mainGroup = 0BF7246D2BA0546F00971DDE;
 			packageReferences = (
 				0BF724A92BA05D9900971DDE /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0BF724EC2BA1A51A00971DDE /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 0BF724772BA0546F00971DDE /* Products */;
 			projectDirPath = "";
@@ -460,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF724F22BA1AB8C00971DDE /* Image+.swift in Sources */,
 				0BF724C82BA0A21500971DDE /* NetworkUser.swift in Sources */,
 				0BF724C62BA09F4C00971DDE /* SourceCodeRemoteRouter.swift in Sources */,
 				0BF724EB2BA0BA1400971DDE /* CommitsViewModel.swift in Sources */,
@@ -476,7 +497,6 @@
 				0BF724D82BA0AB3300971DDE /* CodeRepository.swift in Sources */,
 				0BF724C22BA09EE000971DDE /* SourceCodeRemoteRepository.swift in Sources */,
 				0BF724AF2BA05E6500971DDE /* NetworkRoutable.swift in Sources */,
-				0BF7247C2BA0547000971DDE /* ContentView.swift in Sources */,
 				0BF724CA2BA0A23000971DDE /* NetworkCodeRepository.swift in Sources */,
 				0BF724E92BA0B9FF00971DDE /* CodeRepositoriesViewModel.swift in Sources */,
 				0BF724E12BA0B9A600971DDE /* ProfileView.swift in Sources */,
@@ -847,6 +867,14 @@
 				minimumVersion = 5.9.0;
 			};
 		};
+		0BF724EC2BA1A51A00971DDE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -854,6 +882,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0BF724A92BA05D9900971DDE /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		0BF724ED2BA1A51A00971DDE /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BF724EC2BA1A51A00971DDE /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
