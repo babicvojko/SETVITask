@@ -24,6 +24,7 @@ import Foundation
     func fetch() async {
         do {
             isLoading = true
+            //Better solution here will be to create separate entity for repositories that will be used inside VM
             self.repositories = try await codeRepository.codeRepositories(user: user.login)
             isLoading = false
             self.error = nil
@@ -34,5 +35,9 @@ import Foundation
             self.error = .unknown
             self.isLoading = false
         }
+    }
+    
+    func commitsViewModelFor(repository: CodeRepository) -> CommitsViewModel {
+        .init(user: self.user, repository: repository)
     }
 }

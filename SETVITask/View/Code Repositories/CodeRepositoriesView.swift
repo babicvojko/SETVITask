@@ -27,6 +27,9 @@ struct CodeRepositoriesView: View {
         }
         .navigationTitle("Repositories")
         .navigationBarTitleDisplayMode(.inline)
+        .navigationDestination(for: CodeRepository.self, destination: { repo in
+            CommitsView(viewModel: viewModel.commitsViewModelFor(repository: repo))
+        })
         .task {
             await viewModel.fetch()
         }
@@ -39,7 +42,7 @@ struct CodeRepositoriesView: View {
         List {
             Section {
                 ForEach(viewModel.repositories) { repo in
-//                    NavigationLink(repo.name, value: repo)
+                    NavigationLink(repo.name, value: repo)
                 }
             }
         }
