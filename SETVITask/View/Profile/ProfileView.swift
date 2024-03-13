@@ -19,7 +19,7 @@ struct ProfileView: View {
         NavigationStack {
             VStack {
                 if let _ = viewModel.error {
-                    Text("There is some problem in connection with server. Pull down to reload content")
+                    errorView()
                 } else if viewModel.isLoading {
                     ProgressView()
                         .foregroundStyle(Color.black)
@@ -44,6 +44,17 @@ struct ProfileView: View {
             accountInfoView()
             additionalLinksView()
         }
+    }
+    
+    func errorView() -> some View {
+        Text("There is some problem in connection with server. Tap to reload")
+            .padding()
+            .onTapGesture {
+                Task {
+                    // Instead this, there should be separate method in VM that will handle task cancelation etc.
+                    await viewModel.fetch()
+                }
+            }
     }
     
     func avatarSectionView() -> some View {
