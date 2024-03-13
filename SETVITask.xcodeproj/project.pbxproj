@@ -46,6 +46,7 @@
 		0BF724F92BA1F2DE00971DDE /* CodeRepository+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF724F82BA1F2DE00971DDE /* CodeRepository+.swift */; };
 		0BF725032BA20BFF00971DDE /* Commit+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF725022BA20BFF00971DDE /* Commit+.swift */; };
 		0BF725062BA211BD00971DDE /* CommitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF725052BA211BD00971DDE /* CommitRowView.swift */; };
+		5716EB0B2BA25A4C009C4146 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5716EB092BA25A37009C4146 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		0BF724F82BA1F2DE00971DDE /* CodeRepository+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodeRepository+.swift"; sourceTree = "<group>"; };
 		0BF725022BA20BFF00971DDE /* Commit+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commit+.swift"; sourceTree = "<group>"; };
 		0BF725052BA211BD00971DDE /* CommitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitRowView.swift; sourceTree = "<group>"; };
+		5716EB092BA25A37009C4146 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		0BF7246D2BA0546F00971DDE = {
 			isa = PBXGroup;
 			children = (
+				5716EB092BA25A37009C4146 /* README.md */,
 				0BF724782BA0546F00971DDE /* SETVITask */,
 				0BF7248A2BA0547100971DDE /* SETVITaskTests */,
 				0BF724942BA0547100971DDE /* SETVITaskUITests */,
@@ -471,6 +474,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5716EB0B2BA25A4C009C4146 /* README.md in Resources */,
 				0BF724822BA0547100971DDE /* Preview Assets.xcassets in Resources */,
 				0BF7247E2BA0547100971DDE /* Assets.xcassets in Resources */,
 			);
